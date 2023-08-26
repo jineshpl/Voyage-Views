@@ -1,0 +1,113 @@
+
+.auth-container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('./images/authentication-cover1.jpg');
+    background-size: cover;
+}
+
+.authentication-img {
+    border: 2px solid #FFF;
+}
+
+.authenticate-form {
+    margin-top: 30px;
+}
+
+.signup-header {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.register-header {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+Input{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 250px;
+}
+  
+.input_box {
+    width: 400px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #31708e;
+    border: 10px solid #FFF;
+    box-shadow: 0px 0px 11px rgb(40, 40, 40, 0.8);
+}
+
+.auth-button-row {
+    margin-top: 25px;
+}
+
+.authenticate-subheader {
+    color: #FFF;
+    font-weight: 400;
+}
+
+.auth-no-account-row {
+    margin-top: 30px;
+}
+  
+.authenticate-button {
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 200px;
+}
+
+.authenticate-button:hover {
+    background-color: #8fc1e3;
+    color: white;
+}
+
+.profile-img {
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    background-color: #31708E;
+}
+
+.profile-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #8fc1e3;
+}
+
+.profile-img-icon {
+    position: absolute;
+    z-index: 2;
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 38px;
+    background-color: #000000e3;
+    -webkit-transition: ease all 0.1s;
+    transition: ease all 0.1s;
+}
+
+.profile-img-input {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    opacity: 0;
+    z-index: auto;
+    cursor: pointer;
+}

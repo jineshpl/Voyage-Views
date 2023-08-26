@@ -1,0 +1,41 @@
+.banner-section {
+	background: url('./images/vancouver-stanley-park-cover.jpg') center center fixed;
+	background-size: cover;
+}
+.banner-container {
+	padding: 215px 0px;
+}
+
+.banner-text-container {
+	margin: 30px 0px;
+    color: #FFF;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.banner-text-container h4 {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.banner-text-container h3 {
+	padding-top: 30px;
+}
+
+.banner-text-container h1 {
+	font-size: 75px;
+	padding-bottom: 35px;
+}
+
+.banner-btn {
+    color: #fff;
+    background: #5085A5;
+    padding: 0px 30px;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    line-height: 50px;
+    margin-left: 15px;
+}

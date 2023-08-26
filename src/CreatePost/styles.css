@@ -1,0 +1,362 @@
+.body{
+	max-width: 100%;
+    min-height: 100%;
+}
+
+.createPost{
+    padding: 50px;
+	padding-left: 100px;
+	padding-right: 200px;
+    background: #f7f9fb;  
+	position:relative;
+    height: 900px;
+    left: 50%;
+    top: 80px;
+    width:100%;
+    transform: translate(-50%, 0%);
+	background-color: rgb(198, 223, 231);
+}
+
+.createPostTitle{
+	margin: 10px;
+    color: black; 
+}
+
+.postimg{
+	max-width: 400px;
+	max-height:400px;
+}
+
+.SightseeingDiv{
+	left:480px;
+	top: 120px;
+}
+
+.sightseeingInput{
+	position: absolute;
+	left:490px;
+	height:30px;
+	width:250px;
+    margin: 10px;
+    top:180px;
+	font-size: 14px;
+}
+
+.submitButton {
+	float: right;
+	margin-bottom: 20px;
+}
+
+
+.postButton{
+	float: right;
+}
+
+.postImage{
+	width: 350px;
+	height: 200px;
+	border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.username{
+	position: absolute;
+	top: 2px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	font-size: 15px;
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.userProfile{
+    height: 20px;
+    float: left;
+    font-size: 10px;
+    color: #F7F9FB;
+    width: 20px;
+    margin-left: 40px;
+    border-radius: 50%;
+    background-image: url('../profile.png');
+    background-size: contain;
+}
+
+.postDestination{
+	position: absolute;
+	top: 220px;
+	left: 20px;
+}
+
+.postRating{
+	position: absolute;
+	top: 220px;
+	right: 20px;
+	color: yellow;
+	font-size: 18px;
+}
+
+.postCaption{
+	position: absolute;
+	top: 250px;
+	left: 20px;
+}
+
+.postAttraction{
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+}
+
+.like{
+	position: absolute;
+	height: 25px;
+	bottom: 18px;
+	right: 15px;
+	background-color: transparent;
+	border: 0px;
+    color: red;
+    padding: 5px;
+    margin-right: 3px;
+    border: none;
+}
+.postObject button:hover{
+	background-color: #0b3450;
+	color:#f7f9fb
+}
+
+#expand{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	height: 30px;
+	background-color: rgba(255,255,255,0.8);
+	border: 0px;
+	border-radius: 5px;
+}
+
+a{
+	color: #31708e;
+}
+.postObject{
+    height: 400px;
+    width: 350px;
+    background-color: #FFF;
+	position: relative;
+	display: inline-block;
+	font-size: small;
+	margin: 20px;
+	border-radius: 25px;
+	box-shadow: 0px 0px 11px rgb(25, 25, 25, 0.5);
+	padding: 0px;
+}
+.postObject button{
+	background-color: #0b3450;
+}
+.infoContainer{
+	width:350px;
+	background-color: #0b3450;
+	height: 45px;
+}
+#user2{
+    margin-left: 150px;
+    color: #d3dee4;
+}
+#dest2{
+	margin:5px;
+	color: #d3dee4;
+	font-size: medium;
+}
+#location2{
+	margin:0;
+	color: #d3dee4;
+}
+#like2{
+    float: right;
+    color: red;
+	height: 1px;
+	font-size: small;
+    border: none;
+	background-color: transparent;
+    box-shadow: none !important
+}
+
+#caption2{
+	text-align: center;
+	margin-top: 5px;
+}
+#commentButton{
+	position: absolute;
+	bottom: 0;
+	right:0px;
+	border: none;
+	border-radius: 0px;
+	background-color: #0b3450;
+	color:#8fc1e3;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 5px;
+}
+.postObject2 {
+    background-color: #FFF;
+    height: 450px;
+    width: 1000px;
+    display: inline-block;
+    position: relative;
+	z-index: 400;
+    border-radius: 25px;
+    box-shadow: 0px 0px 11px rgb(40 40 40 / 60%);
+    padding: 0px;
+}
+.postleft {
+    float: left;
+    height: 100%;
+    width: 450px;
+}
+#postObjectImage {
+    height: 300px;
+    width: 450px;
+    border-top-left-radius: 25px;
+}
+
+#user{
+    margin-left: 200px;
+    color: #d3dee4;
+    margin-right: 180px;
+}
+#dest{
+    margin: 5px;
+    font-size: larger;
+    color: #d3dee4;
+}
+#likeNum{
+    float: right;
+}
+#like{
+    float: right;
+    color: red;
+    padding: 5px;
+    margin-right: 3px;
+    height: 15px;
+    border: none;
+    box-shadow: none !important
+}
+.postleft button:hover{
+    background-color: #0b3450;
+    color: red;
+}
+#location{
+    margin: 5px;
+    color: #d3dee4;
+}
+#caption{
+    text-align: center;
+}
+#info{
+    height: 75;
+    background-color: #0b3450;
+}
+#exit{
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 35px;
+    padding: 0;
+    width: 35px;
+    border: none;
+    background-color:#0b3450;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+.commentSection {
+    float: left;
+    height: 100%;
+    background-color:#d8e2ec;
+    width: 550px;
+    border-bottom-right-radius: 25px;
+}
+.commentEl1{
+    font-weight: bolder;
+}
+.comment{
+    margin:5px;
+}
+.pp{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.comments{
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    background-color:#e3e8eb;
+    overflow: auto;
+}
+#leaveComment {
+    height: 50px;
+    position: absolute;
+    width: 550px;
+    background-color:#0b3450;
+    bottom: 0;
+    border-bottom-right-radius: 25px;
+
+}
+.rating2{
+    position: absolute;
+    font-weight: bolder;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+    color: gold;
+    background-color: #0b3450;
+    padding: 5px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#commentBox{
+    width: 490px;
+    padding: 5px;
+    margin: 7px;
+    display: inline-block;
+    box-shadow: none !important;
+}
+#send{
+    height: 34px;
+    width: 30px;
+    padding: 0;
+    margin: 8px;
+    color:#0b3450;
+    border-radius: 15px;
+}
+.infoContainer2{
+    height: 50px;
+    width:350px;
+	background-color: #0b3450;
+}
+
+.posts-section {
+	padding-bottom: 100px;
+    background: #687864;
+}
+
+#posts-header {
+    padding: 20px 0 40px;
+    color: #FFFFFF;
+}
+
+#posts-header h3 {
+    font-size: 24px;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+.noDest{
+    color: #F7F9FB;
+    font-size: larger;
+    font-weight: lighter;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}

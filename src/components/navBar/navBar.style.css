@@ -1,0 +1,41 @@
+.navBar{
+	position:fixed;
+	top: 0;
+	left: 0;
+    width: 100%;
+    padding: 5px 0px;
+	background: #fff;
+	border-bottom: 1px solid #dee3ed;
+    /* Fix to put navigation above other elements
+    (note question: are other elements above 500?)  */
+    z-index: 500;
+}
+
+.navBar-container {
+    margin: 0px 60px 0px 60px;
+}
+
+.navBar-logo {
+    width: 300px;
+    border-radius: 50px;
+}
+
+.navBar-btn {
+    color: #fff;
+    background: #5085A5;
+    padding: 0px 30px;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.navBar-login {
+    display: inline;
+    font-size: 14px;
+    vertical-align: bottom;
+    text-align: left;
+}

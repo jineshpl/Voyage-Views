@@ -1,0 +1,258 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    min-height: 100%;
+    height: 100%;
+}
+
+#pageTitle{
+    float: left;
+    font-size: 30px; 
+    background-color: #8fc1e3;
+    color: #F7F9FB;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    border: 5px solid #687864;
+}
+
+.timelineBanner{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding:0px;
+    width: 12%;
+    height: 800px;
+    margin-top: 80px;
+    float: left;
+    font-family: sans-serif;
+    display: block;
+    display: block;
+    color: #31708e;
+}
+.timelineEl{
+    color: #31708e;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+.timelineTitle{
+    color: #31708e;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+    align-items: center;
+    align-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.timelineBanner button{
+    height: 35px;
+    margin-left: 25px;
+    margin-top: 5px;
+    width: 90px;
+    border-radius: 2px;
+    border: 1px solid #31708e;
+    color: #31708e;
+    background-color: #8fc1e3;
+    cursor: pointer;
+    display: block;
+    box-shadow: none !important
+}
+.rating{
+    color:gold;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+.destination{
+    color: #31708e;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+.rating :hover{
+    cursor: pointer;
+}
+.rating :checked{
+    background-color: #31708e;
+}
+.destination :checked{
+    background-color: #31708e;
+}
+.destination :hover{
+    cursor: pointer;
+}
+.timelineBanner button:hover{
+    background-color: blue;
+    color: #F7F9FB;
+}
+
+.timelineBanner select{
+    background-color: #F7F9FB;
+    color: #31708e;
+    font-weight: bold;
+    height: 35px;
+    width: 90px;
+    border: none;
+}
+
+.postObject2 {
+    background-color: #FFF;
+    height: 450px;
+    width: 1000px;
+    display: inline-block;
+    position: relative;
+    z-index: 400;
+    border-radius: 25px;
+    box-shadow: 0px 0px 11px rgb(40 40 40 / 60%);
+    padding: 0px;
+}
+.postleft {
+    float: left;
+    height: 100%;
+    width: 450px;
+}
+#postObjectImage {
+    height: 300px;
+    width: 450px;
+    border-top-left-radius: 25px;
+}
+
+#user{
+    margin-left: 200px;
+    color: #d3dee4;
+    margin-right: 180px;
+}
+#dest{
+    margin: 5px;
+    font-size: larger;
+    color: #d3dee4;
+}
+#likeNum{
+    float: right;
+}
+#like{
+    float: right;
+    color: red;
+    padding: 5px;
+    margin-right: 3px;
+    height: 15px;
+    border: none;
+    box-shadow: none !important
+}
+.postleft button:hover{
+    background-color: #0b3450;
+    color: red;
+}
+#location{
+    margin: 5px;
+    color: #d3dee4;
+}
+#caption{
+    text-align: center;
+}
+#info{
+    height: 75;
+    background-color: #0b3450;
+}
+#exit{
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 35px;
+    padding: 0;
+    width: 35px;
+    border: none;
+    background-color:#0b3450;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+.commentSection {
+    float: left;
+    height: 100%;
+    background-color:#d8e2ec;
+    width: 550px;
+    border-bottom-right-radius: 25px;
+}
+.commentEl1{
+    font-weight: bolder;
+}
+.comment{
+    margin:5px;
+}
+.pp{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.comments{
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    background-color:#e3e8eb;
+    overflow: auto;
+}
+#leaveComment {
+    height: 50px;
+    position: absolute;
+    width: 550px;
+    background-color:#0b3450;
+    bottom: 0;
+    border-bottom-right-radius: 25px;
+
+}
+.rating2{
+    position: absolute;
+    font-weight: bolder;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+    color: gold;
+    background-color: #0b3450;
+    padding: 5px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#commentBox{
+    width: 490px;
+    padding: 5px;
+    margin: 7px;
+    display: inline-block;
+    box-shadow: none !important;
+}
+#send{
+    height: 34px;
+    width: 30px;
+    padding: 0;
+    margin: 8px;
+    color:#0b3450;
+    border-radius: 15px;
+}
+.infoContainer2{
+    height: 50px;
+    width:350px;
+	background-color: #0b3450;
+}
+
+.posts-section {
+	padding-bottom: 100px;
+    background: #687864;
+}
+
+#posts-header {
+    padding: 20px 0 40px;
+    color: #FFFFFF;
+}
+
+#posts-header h3 {
+    font-size: 24px;
+    line-height: 1.5em;
+    font-weight: 300;
+}

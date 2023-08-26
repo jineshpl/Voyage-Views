@@ -1,0 +1,74 @@
+.settings-page {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.settings-header {
+    margin-bottom: 30px;
+}
+.settings-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.settings-profile-img {
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    background-color: #31708E;
+}
+
+.settings-profile-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.settings-profile-img-input {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    opacity: 0;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.settings-chage-profile-img-icon {
+    position: absolute;
+    z-index: 2;
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 38px;
+    background-color: #000000e3;
+    -webkit-transition: ease all 0.1s;
+    transition: ease all 0.1s;
+}
+
+.settings-btn-verify {
+    background-color: #6FC1E3;
+    border-color: #5085A5;
+    color: #FEFEFE;
+}
+
+li.verify-button {
+    text-align: center;
+}
+
+.settings-form-input {
+    margin-bottom: 1rem;
+}
+
+.settings-form-input input {
+    float: right;
+}

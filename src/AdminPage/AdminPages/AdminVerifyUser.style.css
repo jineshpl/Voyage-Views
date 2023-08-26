@@ -1,0 +1,17 @@
+.admin-verify-page {
+    width: 100%;
+    margin-top: 130px;
+}
+
+.verify-table {
+    margin-top: 20px;
+}
+
+.approval-btn {
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.approval-btn-group {
+    width: 60%;
+}
